@@ -336,6 +336,40 @@
   - 명령어를 입력하고 엔터키를 누르면 bash는 몇 가지 프로세스를 진행
   - 프로세스를 확인하기 위해서 echo 명령어 사용
 
+### 산술확장
+
+- $((expression))
+
+### 중괄호 확장
+
+- echo Number_{1..5}
+  - Number1, Number2, Number3, Number4, Number5
+- mkdir {2009..2011}-{1..9} {2009..2011}-{10.12}
+
+### 매개변수 확장
+
+- echo $USER
+
+### 명령어 치환
+
+- echo $(ls)
 
 
-- ​	
+
+## 8. 고급 키보드 기법
+
+- clear : 화면 지우기
+- history : 히스토리 표시하기
+
+
+
+### 커맨드 라인 편집
+
+- 커서 이동 명령어
+  - CTRL + A : 맨 앞으로 커서 이동 [ Ahead]
+  - CTRL + E : 맨 뒤로 커서 이동 [ End ]
+  - CTRL + F : 다음 한글자 커서 이동 [Forward]
+  - CTRL + B : 이전 한글자 커서 이동 [Backward]
+  - ALT + F : 다음 단어 한글자 이동 [Forward]
+  - ALT + B : 이전 단어 한글자 이동 [Backward]
+  - CTRL + L : 하면 지우고 왼쪽 커서 최상단 이동
