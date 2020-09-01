@@ -1,3 +1,7 @@
+# TIL
+
+
+
 ## SCP
 
 - 파일 전달하기
@@ -9,3 +13,14 @@
 - scp -r : 폴더 재귀적으로 가져오기
 - cp 명령어와 크게 상관없음
 
+
+
+## SSH 키 생성
+
+- ssh-keygen
+  - ~/.ssh 폴더에 파일 생성
+    - id_rsa
+    - id_rsa.pub
+  - cat id_rsa.pub 공개키 복사
+- 깃허브 SSH 등록(id_rsa_pub 등록)
+  - private 리파지토리 복사 시 SSH 주소 복사
